@@ -674,8 +674,10 @@
     min-height: 423px;
   }
 
+
+
   .methods {
-    margin-bottom: 21px;
+    height: 753px;
     background-image: url(../img/methods/mobile_bg.png);
   }
   
@@ -694,6 +696,7 @@
     margin-bottom: 22px;
     line-height: 25px;
     color: #FFFFFF;
+    background: none;
   }
 
   .methods__list {
@@ -756,7 +759,7 @@
 
   .video-description-1 {
     position: absolute;
-    top: 1838px;
+    top: 1865px;
     left: 1px;
   }
 
@@ -819,6 +822,64 @@
     font-weight: 900;
     text-align: center;
     margin-top: 0px;
+  }
+
+  .open .coating__card__title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .open .coating__card-header {
+    gap: 18px;
+    grid-template-columns: 1fr 20px;
+  }
+
+  .open .coating__button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .open .coating__card-main {
+    grid-template-columns: 1fr;
+  }
+
+  .open .file {
+    display: none;
+  }
+
+  .open .coating__card__title-1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #201D1D;
+  }
+
+  br {
+    display: none;
+  }
+
+  .open .coating__specs__descr, 
+  .open .text-list {
+    color: #303030;
+    font-size: 12px;
+  }
+
+  .open .coating__card-main {
+    gap: 11px;
+  }
+
+  .open .pictures-1 {
+    margin-bottom: 0px;
+    width: 160px;
+    height: 108px;
+  }
+
+  .open .card__left {
+    display: flex;
+    justify-content: center;
+    }
+
+  .open {
+    padding: 9px 11px 19px 21px;
   }
 
 
