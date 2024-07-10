@@ -853,7 +853,7 @@
     color: #201D1D;
   }
 
-  br {
+  .open br {
     display: none;
   }
 
