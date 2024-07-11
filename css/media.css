@@ -631,7 +631,7 @@ display: none;
   }
 }
 
-@media (max-width: 216px) {
+@media (max-width: 393px) {
 
   html{
 
@@ -1312,5 +1312,12 @@ display: none;
 
   ._active .header__navlink {
     color:#FFA500;
+  }
+}
+
+@media (max-width: 216px) {
+  body
+  {
+    color: red;
   }
 }
