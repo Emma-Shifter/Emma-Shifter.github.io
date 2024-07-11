@@ -460,7 +460,7 @@ display: none;
   }
 }
 
-@media (max-width:425px) {
+/* @media (max-width:425px) {
   .hero__content {
     max-width: 350px;
     margin: 0 auto
@@ -629,9 +629,9 @@ display: none;
   .coating__card-right {
     margin-bottom: 30px
   }
-}
+} */
 
-@media (max-width: 393px) {
+@media (max-width: 425px) {
 
   html{
 
@@ -1312,12 +1312,5 @@ display: none;
 
   ._active .header__navlink {
     color:#FFA500;
-  }
-}
-
-@media (max-width: 216px) {
-  body
-  {
-    color: red;
   }
 }
