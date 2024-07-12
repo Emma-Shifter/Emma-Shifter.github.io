@@ -14,6 +14,18 @@ display: none;
   display: block;
 }
 
+.hero2 {
+  display: none;
+}
+
+.mobile-documents__container {
+  display: none;
+}
+
+.mobile-prices__button {
+  display: none;
+}
+
 @media (max-width:1539.98px) {
   .wu-scheme {
     display: none
@@ -565,6 +577,7 @@ display: none;
   }
 
   .hero2{
+    display: block;
     width: 100%;
     object-fit: fill;
     height: 348px;
@@ -856,10 +869,6 @@ display: none;
     display: block;
   }
 
-  .mobile-examples .examples__content {
-    padding-left: 10px;
-  }
-
   .mobile-examples .examples__container {
     margin-top: 0px;
     padding: 28px 16px 54px 17px;
@@ -897,12 +906,6 @@ display: none;
     margin: auto auto;
     object-fit: contain;
     margin-bottom: 10px;
-  }
-
-  .mobile-examples .examples__arrow-right {
-    position: relative;
-    bottom: 4px;
-    right: 30px;
   }
 
   .mobile-customers__list {
@@ -949,6 +952,7 @@ display: none;
   }
 
   .mobile-prices__button {
+    display: block;
     margin: auto auto; 
     height: 50px;
     padding: auto auto;
