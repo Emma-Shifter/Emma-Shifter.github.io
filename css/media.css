@@ -6,6 +6,14 @@
 display: none;
 }
 
+.mobile-video {
+  display: none;
+}
+
+.video {
+  display: block;
+}
+
 @media (max-width:1539.98px) {
   .wu-scheme {
     display: none
@@ -460,177 +468,6 @@ display: none;
   }
 }
 
-/* @media (max-width:425px) {
-  .hero__content {
-    max-width: 350px;
-    margin: 0 auto
-  }
-
-  .mobile-examples {
-    display: none;
-  }
-
-  .mobile-customers__container {
-    display: none;
-  }
-
-  .footer__container {
-    flex-direction: column
-  }
-
-  .hero__btn {
-    padding-left: 50px;
-    padding-right: 50px
-  }
-
-  .title {
-    font-size: 28px;
-    margin-bottom: 16px
-  }
-
-  .subtitle {
-    font-size: 16px;
-    margin-bottom: 30px
-  }
-
-  .container {
-    padding-top: 25px;
-    padding-bottom: 50px
-  }
-
-  .hero__container {
-    text-align: center;
-    min-height: 500px;
-    margin: 0 auto;
-    padding-bottom: 0
-  }
-
-  .header__container {
-    padding-top: 0;
-    padding-bottom: 0
-  }
-
-  .about {
-    background: #fff
-  }
-
-  .about__content,
-  .methods__item {
-    padding: 0;
-    box-shadow: none
-  }
-
-  .coating__button,
-  .column-plasma,
-  .customers__list {
-    width: 100%
-  }
-
-  .coating__title,
-  .prices__title {
-    margin-bottom: 5px
-  }
-
-  .coating__item {
-    padding: 15px;
-    min-height: 120px
-  }
-
-  .prices__list {
-    grid-template-rows: repeat(4, minmax(120px, auto))
-  }
-
-  .prices__item,
-  .why-us__item {
-    padding: 20px
-  }
-
-  .prices__item__title,
-  .why-us__item__title {
-    font-size: 24px
-  }
-
-  .btn {
-    font-size: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px
-  }
-
-  .methods__list {
-    gap: 25px
-  }
-
-  .column-fsi,
-  .column-map,
-  .methods__img {
-    display: none
-  }
-
-  .methods__item__title {
-    font-size: 24px;
-    margin-bottom: 10px
-  }
-
-  .examples__list .owl-stage-outer {
-    padding-top: 30px;
-    max-height: 400px
-  }
-
-  .contacts__content {
-    flex-wrap: wrap;
-    gap: 15px
-  }
-
-  .contacts-right {
-    height: 300px;
-    flex-grow: 1
-  }
-
-  .modal__text {
-    font-size: 20px
-  }
-
-  .footer__container {
-    column-gap: 0;
-    flex-direction: row
-  }
-
-  .form__title {
-    margin-bottom: 0
-  }
-
-  .contacts__text {
-    line-height: 24px;
-    margin-bottom: 15px;
-    padding-left: 35px;
-    background-position: left center;
-    background-size: 24px 24px;
-    background-repeat: no-repeat
-  }
-
-  .coating__card,
-  .coating__popup {
-    padding: 15px
-  }
-
-  .coating__card__title {
-    font-size: 28px;
-    margin-bottom: 5px
-  }
-
-  .coating__card__descr {
-    font-size: 16px
-  }
-
-  .coating__card-left {
-    margin-bottom: 15px
-  }
-
-  .coating__card-right {
-    margin-bottom: 30px
-  }
-} */
-
 @media (max-width: 425px) {
 
   html{
@@ -730,6 +567,7 @@ display: none;
   .hero2{
     width: 100%;
     object-fit: fill;
+    height: 348px;
   }
 
 
@@ -764,7 +602,7 @@ display: none;
   }
 
   .methods__item{
-    padding: 13px 21px;
+    padding: 25px 21px 15px;
     box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.2);
   }
 
@@ -786,6 +624,14 @@ display: none;
     font-size: 12px;
   }
 
+
+  .video {
+    display: none;
+  }
+
+  .mobile-video {
+    display: block;
+  }
 
   .video__container {
     padding-top: 28px;
@@ -815,21 +661,7 @@ display: none;
     font-weight: 400;
   }
 
-  .video-description-1 {
-    position: absolute;
-    top: 1795px;
-    left: 1px;
-  }
-
-  .video__container__descriptions {
-    padding: 0;
-  }
-
-  .video__item:first-child {
-    margin-bottom: 18px;
-  }
-
-  .video__item:last-child {
+  .video__item {
     margin-bottom: 5px;
   }
 
@@ -1024,6 +856,10 @@ display: none;
     display: block;
   }
 
+  .mobile-examples .examples__content {
+    padding-left: 10px;
+  }
+
   .mobile-examples .examples__container {
     margin-top: 0px;
     padding: 28px 16px 54px 17px;
@@ -1066,6 +902,7 @@ display: none;
   .mobile-examples .examples__arrow-right {
     position: relative;
     bottom: 4px;
+    right: 30px;
   }
 
   .mobile-customers__list {
@@ -1073,6 +910,12 @@ display: none;
   }
 
 
+  .prices {
+    padding: 0px;
+    margin: 0px;;
+    background-image: url(../img/why-us/mobile_bg.png);
+  }
+  
   .prices__container {
     padding: 28px 35px 28px 30px;
   }
