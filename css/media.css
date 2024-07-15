@@ -579,14 +579,13 @@ display: none;
   .hero2{
     display: block;
     width: 100%;
-    object-fit: fill;
-    height: 348px;
+    height: 423px;
+    background-image: url(../img/hero/hero-bg.png);
+    background-position: top;
   }
 
 
-
   .methods {
-    height: 753px;
     background-image: url(../img/methods/mobile_bg.png);
   }
   
@@ -1161,7 +1160,7 @@ display: none;
 
 
   ._active {
-    background-color: #303030;
+    background-color: rgba(0, 0, 0, 0.85);
   }
 
   ._active.header__burger {
