@@ -998,7 +998,6 @@ display: none;
 
   .documents__container {
     display: none;
-    padding: 0px 33px 47px 33px
   }
 
   .mobile-documents__container {
@@ -1006,25 +1005,14 @@ display: none;
     display: block;
   }
 
-  .mobile-documents__img {
-    width: 238px;
-    height: 340px;
-    object-fit: cover;
-    margin-bottom: 29px;
-    object-position: top;
-    margin-left: 50px;
-  }
-
   .mobile-documents__list {
     display: flex;
-    gap: 16px;
     justify-content: space-around;
   }
 
-  .mobile-documents__list li{
+  .swiper-slide {
     background-color: #171717;
     padding: 19px 8px 31px;
-    width: 96px;
     height: 111px;
     border-radius: 15px;
     display: flex;
@@ -1036,7 +1024,6 @@ display: none;
 
   .mobile-documents__list .certificate{
     font-size: 12px;
-    /* margin-bottom: 8px; */
     text-align: center;
   }
 

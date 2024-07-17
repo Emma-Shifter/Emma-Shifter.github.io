@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -672,24 +674,37 @@
     <!-- Сертификаты компании в мобильной версии -->
     <div class="container mobile-documents__container">
       <h2 class="title documents__title">Документы</h2>
-      <div class="mobile-documents_list">
-        <img class="mobile-documents__img" src="img/documents/certificate.svg" alt="Сертификат">
-        <ul class="mobile-documents__list">
-          <li>
+      <div class="swiper mySwiper mobile-documents_list">
+        <div class="swiper-wrapper mobile-documents__list">
+          <div class="swiper-slide" style="display: flex">
             <p class="certificate">Сертификат Пример 1</p>
             <div class="link"><a class="documents__download" href="img/documents/certificate.pdf" download="certificate.pdf">Скачать</a></div></figure></li>
-          </li>
-          <li>
+          </div>
+          <div class="swiper-slide" style="display: flex">
             <p class="certificate">Сертификат Пример 2</p>
             <div class="link"><a class="documents__download" href="img/documents/certificate.pdf" download="certificate.pdf">Скачать</a></div></figure></li>
-          </li>
-          <li>
+          </div>
+          <div class="swiper-slide" style="display: flex">
             <p class="certificate">Сертификат Пример 3</p>
             <div class="link"><a class="documents__download" href="img/documents/certificate.pdf" download="certificate.pdf">Скачать</a></div></figure></li>
-          </li>
-        </ul>
-      </div>
+          </div>
+          <div class="swiper-slide" style="display: flex">
+            <p class="certificate">Сертификат Пример 4</p>
+            <div class="link"><a class="documents__download" href="img/documents/certificate.pdf" download="certificate.pdf">Скачать</a></div></figure></li>
+          </div>
+          <div class="swiper-slide" style="display: flex">
+            <p class="certificate">Сертификат Пример 5</p>
+            <div class="link"><a class="documents__download" href="img/documents/certificate.pdf" download="certificate.pdf">Скачать</a></div></figure></li>
+          </div>
+          <div class="swiper-slide" style="display: flex">
+            <p class="certificate">Сертификат Пример 6</p>
+            <div class="link"><a class="documents__download" href="img/documents/certificate.pdf" download="certificate.pdf">Скачать</a></div></figure></li>
+          </div>
         </div>
+        <div class="swiper-button-next" style="right: 0; color: white"></div>
+        <div class="swiper-button-prev" style="left: 0; color: white"></div>
+      </div>
+    </div>
 
     </section>
 
@@ -782,6 +797,7 @@
   <script defer src="js/owl.carousel.min.js"></script>
   <script defer src="js/main.js"></script>
   <script defer src="js/header-js.js"></script>
+  <script defer src="js/documents-slider.js"></script>
 </body>
 
 </html>
